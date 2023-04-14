@@ -42,7 +42,7 @@ public class UserResource {
   @PostMapping
   public ResponseEntity<User> insert(@RequestBody User obj) {
     obj = service.insert(obj);
-    // retornar o id do objeto criado junto com o path na responsa da chamada
+    // retornar o id do objeto criado junto com o path no response da chamada
     URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(obj.getId()).toUri();
     return ResponseEntity.created(uri).body(obj);
   }
