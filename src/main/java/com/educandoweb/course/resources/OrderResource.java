@@ -12,13 +12,16 @@ import org.springframework.web.bind.annotation.RestController;
 import com.educandoweb.course.entities.Order;
 import com.educandoweb.course.services.OrderService;
 
+import io.swagger.v3.oas.annotations.Operation;
+
 @RestController
-@RequestMapping(value = "/orders")
+@RequestMapping(value = "/v1/orders")
 public class OrderResource {
 
   @Autowired
   private OrderService service;
 
+  @Operation(summary = "Descrição do método 2")
   @GetMapping
   public ResponseEntity<List<Order>> findAll() {
 
