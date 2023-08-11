@@ -1,17 +1,17 @@
-# Sistema de gerenciamento de pedidos: CRUD com Spring Boot
+# Order Management System: CRUD with Spring Boot
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus)](https://github.com/Mephistosz/workshop-springboot3-jpa/blob/main/LICENSE)
 
-# Sobre o projeto
+# About the Project
 
-é uma aplicação backend construída durante o curso de [Java](https://github.com/Mephistosz/workshop-springboot3-jpa/blob/main/LICENSE) realizado na udemy pelo professor Nelio Alves.
+This is a backend application built during the [Java](https://github.com/Mephistosz/workshop-springboot3-jpa/blob/main/LICENSE) course on Udemy, instructed by Professor Nelio Alves..
 
-A aplicação consiste em um CRUD com microserviços onde é possível manipular as informações para gerenciar os pedidos.
+The application comprises a microservices-based CRUD system, enabling manipulation of information for order management.
 
-## Modelo conceitual
-![Modelo Conceitual](https://i.imgur.com/laP1PYb.png)
+## Conceptual Model
+![Conceptual Model](https://i.imgur.com/laP1PYb.png)
 
-# Tecnologias utilizadas
+# Technologies Used
 ## Back end
 - Java
 - Spring Boot
@@ -19,11 +19,11 @@ A aplicação consiste em um CRUD com microserviços onde é possível manipular
 - Maven
 - SQL
 
-# Como executar o projeto
+# How to Run the Project
 
 ## Back end
-Pré-requisitos: Java 17
+Prerequisites: Java 17
 
 ```bash
-# clonar repositório
+# clone repository
 git clone https://github.com/Mephistosz/workshop-springboot3-jpa.git
